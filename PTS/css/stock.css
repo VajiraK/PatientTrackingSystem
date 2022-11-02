@@ -1,0 +1,166 @@
+#stock{
+	width:90%;
+	margin:auto;
+	margin-top:10;
+	margin-bottom:10;
+	border-collapse:collapse;
+}
+
+#stock td, #stock th {
+	font-size:1.1em;
+	border:1px solid #A67600;
+	padding:3px 7px 2px 7px;
+}
+
+#stock th {
+	font-size:1.1em;
+	text-align:left;
+	padding-top:5px;
+	padding-bottom:4px;
+	background-color:#BF9630;
+	color:#ffffff;
+}
+
+#stock tr.alt td {
+	background-color:#FFD773;
+}
+
+#stock caption{
+	padding-bottom:4px;
+	color:#1826B0;
+	font-size: 18px;
+	font-weight: bold;
+	text-align: left;
+}
+
+#delete_image{
+	width:20px;
+}
+
+#subcatdiv{
+	width:280px;
+}
+
+#subcatdiv select {
+   background: transparent;
+   margin-right: 4px;
+   font-size: 14px;
+   line-height: 1;
+   border-radius: 0;
+   height: 20px;
+   width:60px;
+}
+
+#readonly_field{
+	background-color:#FFFFB0;
+}
+
+#medicine_container{
+	background:#FFFFFF;
+	border:solid #222222 1px;
+	width:320px;
+	height:300px;
+	overflow:scroll;
+}
+
+#medicine_item{
+	background:#DDDDDD;
+	padding:3px 3px 0px 3px;
+	margin:3px auto auto auto;
+	border:solid #777777 1px;
+	width:280px;
+	height:56px;
+	-webkit-box-shadow: 0 3px 6px rgba(0,0,0,.25);
+	-moz-box-shadow: 0 3px 6px rgba(0,0,0,.25);
+    border-radius : 4px;
+    -moz-border-radius : 4px;
+    -webkit-border-radius : 4px;
+}
+
+#medicine_item img{
+	border:solid #222222 1px;
+	width:50px;
+	height:50px;
+}
+
+#div_description{
+	margin:-55px 3px 0px 40px;
+}
+
+#div_quantity{
+	margin:0px 3px 0px 55px;
+}
+
+#medicine_item_id{
+	text-align: center;
+	font-weight: bold;
+}
+
+#medicine_item_name{
+	text-align: center;
+	font-size:11px;
+}
+
+#quantity_textbox{
+	margin:0px 3px 0px 50px;
+	float:left;
+	width:60px;
+	text-align: right;
+}
+
+#quantity_checkbox{
+	margin:3px -48px 0px 55px;
+	float:left;
+	width:10px;
+}
+
+#medicine_item_unit{
+	margin-top:3px;
+	float:left;
+	width:40px;
+	font-size:12px;
+}
+
+#error_msg{
+	margin:30px auto auto auto;
+	width:300px;
+	text-align: center;
+	color:#ff0000;
+	font-size:30px;
+}
+
+/* Used medicines table */
+#medicines_table{
+	width:80%;
+	margin-top:10;
+	margin-bottom:10;
+	border-collapse:collapse;
+}
+
+#medicines_table td, #medicines_table th {
+	font-size:1em;
+	border:1px solid #A67600;
+	padding:3px 7px 2px 7px;
+}
+
+
+#medicines_table th {
+	font-size:1.1em;
+	text-align:left;
+	padding-top:5px;
+	padding-bottom:4px;
+	background-color:#BF9630;
+	color:#ffffff;
+}
+
+#medicines_table tr.alt td {
+	background-color:#FFD773;
+}
+
+#table_display_field{
+	background-color:#fdfdfd;
+	width:310px;
+	margin-top:2px;
+	margin-bottom:10px;
+}
+/* Used medicines table */

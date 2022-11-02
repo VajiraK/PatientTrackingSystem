@@ -1,0 +1,372 @@
+*{
+	padding:0;
+	margin:0;
+}
+
+body{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	font-variant: normal;
+}
+
+h1{
+	font-size: 16px;
+	margin-top:6px;
+	margin-bottom:6px;
+}
+
+h2{
+	font-size: 14px;
+	margin-top:6px;
+	margin-bottom:6px;
+}
+
+p{
+	font-size: 14px;
+}
+
+#display_field{
+	border:solid #000000; 
+	border-width: 1px;
+	background-color:#fdfdfd;
+	width:200px;
+	padding:6px 0px 3px 4px;
+	margin-top:2px;
+	margin-bottom:10px;
+	-webkit-box-shadow: 0 3px 6px rgba(0,0,0,.25);
+	-moz-box-shadow: 0 3px 6px rgba(0,0,0,.25);
+    border-radius : 4px;
+    -moz-border-radius : 4px;
+    -webkit-border-radius : 4px;
+}
+
+#login_pannel{
+	margin:auto;
+	padding:50px;
+	width:250px;
+	background-color:#d6d6d6;
+	border:solid #71809E; 
+	border-width:1px;
+    -webkit-box-shadow: 0 3px 6px rgba(0,0,0,.25);
+	-moz-box-shadow: 0 3px 6px rgba(0,0,0,.25);
+    border-radius : 10px;
+    -moz-border-radius : 10px;
+    -webkit-border-radius : 10px;
+}
+
+#login_pannel td{
+	padding:3px 3px 0px 3px;
+	font-size:1.2em;
+}
+
+#column_container{
+	margin:auto;
+}
+
+#column{
+	margin-left:30px;
+	float:left;
+}
+
+#list_table{
+	margin-left:40px;
+	margin-bottom:10px;
+}
+
+#list_table th{
+	text-align: left;
+}
+
+#list_table td{
+	padding-left:6px;
+}
+
+#round_border_div{
+	margin-top:10px;
+	margin-right:10px;
+	padding:10px;
+	border:solid #d6d6d6; 
+	border-width: 1px;
+    -webkit-box-shadow: 0 3px 6px rgba(0,0,0,.25);
+	-moz-box-shadow: 0 3px 6px rgba(0,0,0,.25);
+    border-radius : 10px;
+    -moz-border-radius : 10px;
+    -webkit-border-radius : 10px;
+}
+
+#wrapper {
+    width: 940px;
+    margin: 0 auto;
+	padding-top:4px;
+	padding-bottom:4px;
+    position: relative;
+}
+
+#footer{
+	margin-top:10px;
+	width:940px;
+	height:40px;
+	background-color:#4C59D8;
+	text-align: center;
+	border:solid #081272; 
+	border-width:1px;
+	color:#ffffff;
+}
+
+#footer  p{
+	float:right;
+	margin:10px 340px 0px 0px;
+}
+
+#scrollup{
+	margin:5px 5px 0px 0px;
+	float:right;
+	width:32px;
+	height:32px;
+	background-image:url('../img/top.png');
+}
+
+#header{
+	margin-top:10px;
+	width:940px;
+	background-color:#4C59D8;
+	text-align: center;
+	border:solid #081272; 
+	border-width:1px;
+	color:#ffffff;
+}
+
+#header h1{
+	font-size: 38px;
+	font-weight: bold;
+}
+
+#header_time{
+	margin-top:-40px;
+	margin-right:10px;
+	float:right;
+	font-size: 24px;
+	font-family:monospace;
+	font-weight: bold;
+}
+
+#buttom_div{
+	background-color:#f0f0f0;
+	width: 120px;
+	height:18px;
+	margin:10px;
+	border:solid #d6d6d6; 
+	border-width: 1px;
+	-webkit-box-shadow: 0 3px 6px rgba(0,0,0,.25);
+	-moz-box-shadow: 0 3px 6px rgba(0,0,0,.25);
+    border-radius : 4px;
+    -moz-border-radius : 4px;
+    -webkit-border-radius : 4px;
+	font-weight: bold;
+	text-align:center;
+}
+
+#buttom_div:hover{
+	background-color:#d9d9d9;
+}
+
+#edit_form{
+	font-size:14px;
+	margin:auto;
+	padding:10px;
+	width:580px;
+	background-color:#d6d6d6;
+	border:solid #71809E; 
+	border-width:1px;
+}
+
+#edit_form  table{
+	margin:auto;
+}
+
+#edit_form  table td {
+	padding: 5px;
+}
+
+#patient_search_by_id{
+	margin-left:30px;
+	margin-top:18px;
+	width:70px;
+}
+
+#patient_search_by_name{
+	margin:0px 0px 3px 545px;
+	width:350px;
+}
+
+#medicine_fill{
+	margin-bottom:3px;
+}
+
+#medicine_fill select{
+	width:120px;
+}
+
+#medicine_fill input{
+	width:35px;
+	text-align:right;
+}
+
+#medicine_fill img{
+	margin-bottom:-4px;
+	width:16px;
+}
+
+#error_text{
+	color:#FF0000;
+}
+
+#check_table_container{
+	background-color:#d6d6d6;
+	margin-top:10px;
+	width:570px;
+}
+
+#check_table_container table{
+	margin:10px auto;
+	font-size:14px;
+}
+
+#check_table_container table th{
+	font-size:14px;
+	vertical-align:top;
+}
+
+#check_table_container table td{
+	vertical-align:top;
+	padding:3px 3px 2px 3px;
+}
+
+#check_table{
+    width: 240px;
+	margin:5px !important;
+	border:solid 1px;
+}
+
+#check_table td, #check_table th {
+	font-size:1.1em;
+	padding:3px 3px 2px 3px;
+}
+
+#edit_patient{
+	border-top:solid #777777;
+	margin-top:10px;
+	padding-top:10px;
+	text-align:right;
+	width:570px;
+}
+
+#wound_image{
+	text-align:right;
+	width:570px;
+}
+
+.wound_image {
+	width:570px;
+	visibility:hidden;
+	position:fixed;
+}
+
+.delay_image{
+	margin: 100px 250px 100px 0px
+}
+
+#wound_image canvas{
+	margin-top:16px;
+	border:solid #777777; 
+}
+
+#wound_image input[type="checkbox"]{
+	margin:0px 5px 0px 0px;
+}
+
+#wound_image #display_field{
+		text-align:left;
+}
+
+#round_div{
+	overflow :hidden;
+	width:940px;
+	margin-top:10px;
+	padding-bottom:10px;
+	border:solid #d6d6d6; 
+	border-width: 1px;
+    -webkit-box-shadow: 0 3px 6px rgba(0,0,0,.25);
+	-moz-box-shadow: 0 3px 6px rgba(0,0,0,.25);
+    border-radius : 10px;
+    -moz-border-radius : 10px;
+    -webkit-border-radius : 10px;
+}
+
+#new_appointment{
+	width:940px;
+	margin-top:10px;
+	padding-bottom:10px;
+	text-align:right;
+}
+
+#pannel_title {
+	margin-bottom:10px;
+	border-bottom:solid #d6d6d6; 
+	border-width: 1px;
+	background-color:#d6d6d6;
+	color:#1826B0;
+	font-size: 18px;
+	font-weight: bold;
+    text-align: center;
+}
+
+/************************ ADMIN PANNEL ************************/
+#adm_pannel_item{
+	width: 200px;
+	height:200px;
+	background-color:#f0f0f0;
+	margin:10px;
+	float:left;
+	border:solid #d6d6d6; 
+	border-width: 1px;
+	-webkit-box-shadow: 0 3px 6px rgba(0,0,0,.25);
+	-moz-box-shadow: 0 3px 6px rgba(0,0,0,.25);
+    border-radius : 4px;
+    -moz-border-radius : 4px;
+    -webkit-border-radius : 4px;
+}
+
+#adm_pannel_item:hover{
+	background-color:#d9d9d9;
+}
+
+#adm_pannel_item img{
+	margin-bottom:10px;
+	width:78px;
+	height:78px;
+}
+
+#adm_pannel_item p{
+	margin-top:50px;
+	font-size: 15px;
+	font-weight: bold;
+    text-align: center;
+}
+/************************ ADMIN PANNEL ************************/
+
+#sql_exploit_warning{
+	margin-top:30px;
+	padding:40px;
+	font-size: 18px;
+    text-align: center;
+	background-color:red;
+	color:white;
+	-webkit-box-shadow: 0 3px 6px rgba(0,0,0,.25);
+	-moz-box-shadow: 0 3px 6px rgba(0,0,0,.25);
+    border-radius : 10px;
+    -moz-border-radius : 10px;
+    -webkit-border-radius : 10px;
+}
+
